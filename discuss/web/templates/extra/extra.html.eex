@@ -1,0 +1,660 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hello Discuss!</title>
+    <link rel="stylesheet" href="<%= static_path(@conn, "/css/app.css") %>">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+  </head>
+  <body>
+<div class="banner" id="home">
+    <header class="header" >
+        <!-- just here changing navbar navbar-default to navbar navbar-inverse -->
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+
+
+            <div class="container">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <!-- this is the most important features of this down code. this is for responsive layout for mobiles .
+                as soon as a screen is small resized the button will toogle or come . we give them class = icon-bar -->
+
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">
+                        <!-- small size logo -->
+                        <img src="images/sandeep.jpg" alt="logo" style="width: 60px">
+
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right" >
+                        <li><a href="#home" class="nav-item">HOME</a></li>
+                        <li><a href="#ABOUT" class="nav-item">ABOUT ME</a></li>
+                        <li><a href="#SKILLS" class="nav-item">SKILLS</a></li>
+                        <li><a href="#TESTIMONIAL" class="nav-item">TESTIMONIALS</a></li>
+                        <li><a href="#SCREENS" class="nav-item">MY PROJECTS</a></li>
+                        <li><a href="#MY EDUCATION" class="nav-item">MY EDUCATION</a></li>
+                        <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
+                    </ul>
+
+
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <div class="header-overlay" >
+
+
+
+            <div class="container header-container" style="padding-top: 95px; padding-bottom: 95px;">
+                <div class="row">
+
+                    <div class="col-md-12">
+
+                        <!-- Logo -->
+                        <div class="brand text-center">
+                            <a href="#" >GREETINGS   </a>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                     <div class="row ">
+
+                        <div class="col-md-4 ">
+
+                            <div class="header-my">
+
+
+                                <!-- Header iPhone -->
+                                <img src="images/my.jpg" alt = "header iphone">
+                                <!--
+                                <img src ="images/me2.jpg" alt="img"> -->
+
+                            </div>
+
+
+                        </div>
+                         <div class="col-md-7 col-md-offset-1">
+
+                             <div class="header-text">
+
+                                 <!-- Title & Description -->
+                                 <h1 >Sandeep Ghimire </h1>
+                                 <p>I am a web developer, passionate about new technologies especially in
+                                     web platform and ready to implement on real practice.</p>
+
+                             </div>
+
+                             <div class="header-btns">
+
+                                 <!-- Header buttons -->
+                                 <a class="btn btn-download wow fadeInLeft" href="#">Download(My Resume)</a>
+
+
+
+
+
+
+                             </div>
+
+                         </div>
+                    </div>
+
+        </div>
+        </div>
+    </header>
+  </div>
+<!-- section area -->
+  <section id="ABOUT">
+
+      <div class="container" >
+
+          <div class="row">
+
+              <div class="col-md-10 col-md-offset-1">
+
+                  <!-- About us Title & Description -->
+                  <div class="section-title">
+
+                      <h2> About Me </h2>
+                      <p>I am a Final year Information Engineering graduate student at The University of Applied Sciences,
+                          Kiel with an interest , moreover passion in system and Web development  I am a
+                          hardworking person able to work in any circumstances in a group or alone,  prepared to add experience,
+                          fresh graphic creativity to the team to generate superior quality advertising and promotional operations,
+                          using advanced technologies and mutual devising strategies.</p>
+
+                      <p>I completed Bachelors Degree from National college of Computer Studies, Nepal, then worked as a
+                          intern web developer about 6 months in Neparica Technology.</p>
+
+
+                      <p>I am seeking a summer internship to apply my knowledge assisting a company’s branding needs through a motives of mine to
+                          become a Full Stack Web developer. The others field of my Interests are Web security
+                          and Business IT management.</p>
+                      <blockquote>
+                          <p>
+                              <em> "Stay hungry, Stay Foolish." - Steve Jobs  </em>
+                          </p>
+                      </blockquote>
+
+
+                  </div>
+
+
+
+              </div>
+
+          </div>
+       </div>
+      <div class="modal-content">
+      <div class="choose-us-wraper">
+
+          <div class="container">
+
+              <div class="row">
+
+
+                  <div class="col-md-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                      <div class ="about">
+                      <h3>Hi, i'm <span>Sandeep Ghimire </span></h3>
+                      <h4>Web Designer & Developer </h4>
+                      <ul class="address">
+                          <li>
+                              <ul class="agileits-address-text ">
+                                  <li><b>D.O.B</b></li>
+                                  <li>05-05-1991</li>
+                              </ul>
+                          </li>
+                          <li>
+                              <ul class="agileits-address-text">
+                                  <li><b>PHONE </b><i class="fa fa-phone" aria-hidden="true" style="color: #129CF3"></i></li>
+                                  <li>+4915154841779  </li>
+                              </ul>
+                          </li>
+                          <li>
+                              <ul class="agileits-address-text">
+                                  <li><b>ADDRESS </b></li>
+                                  <li>Eichenbergskamp 18, kiel , Germany</li>
+                              </ul>
+                          </li>
+                          <li>
+                              <ul class="agileits-address-text">
+                                  <li><b>E-MAIL </b><i class="fa fa-envelope" aria-hidden="true" style="color: #129CF3"></i></li>
+                                  <li><a href=""> sandeepghimire77@gmail.com</a></li>
+                              </ul>
+                          </li>
+                          <li>
+                              <ul class="agileits-address-text">
+                                  <li><b>WEBSITE </b></li>
+                                  <li><a href="https://sandeepghimire77.github.io/MYSITE/">https://sandeepghimire77.github.io/MYSITE/</a></li>
+                              </ul>
+                          </li>
+                      </ul>
+                          <!-- code add here -->
+                          <div class="w3-button-info m_nav_item">
+                              <a class="hvr-sweep-to-bottom" href="#CONTACT">Contact Me</a>
+                          </div>
+
+                          <div class="container">
+                              <div class="row">
+
+                                  <div class="col-md-12 wow bounceInLeft"> &nbsp;&nbsp;
+
+                                      <div class="social-iconsss">
+
+                                          <ul>
+
+                                              <li><a href="https://www.facebook.com/sandeep.ghimire.96"><i class="fa fa-facebook"></i></a></li>
+                                              <li><a href="https://www.linkedin.com/in/sandeep-ghimire-40932b120?"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                                              <li><a href="https://github.com/sandeepghimire77"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+
+                                          </ul>
+
+
+                                      </div>
+
+
+                                  </div>
+
+                              </div>
+
+                          </div>
+
+                      </div>
+                      <!-- code adds here -->
+
+
+                  </div>
+
+                  <div class="col-md-6">
+
+                      <!-- About iphone -->
+                      <!-- <div class="about-iphone wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">
+
+                          <img class="img-responsive" src="images/me2.jpg" alt="iphone">
+
+                      </div> -->
+                      <section class="skill" id="SKILLS">
+
+                                  <div class="modal-header">
+
+                                      <h4 class="modal-title">My Skills</h4>
+
+
+                                  </div>
+                                  <div class="modal-body modal-spa">
+                                      <div class="skills">
+                                          <div class="col-md-6 bar-grids">
+                                              <h4><span><i class="fa fa-cog" aria-hidden="true" style="color: #129CF3"></i></span> Technical Skills </h4>
+                                              <h6>web design  <span> 80% </span></h6>
+                                              <div class="progress">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 80%">
+                                                  </div>
+                                              </div>
+                                              <h6>ui design & developer <span> 70% </span></h6>
+                                              <div class="progress  w3-agile">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 70%">
+                                                  </div>
+                                              </div>
+                                              <h6>Javascript<span>90% </span></h6>
+                                              <div class="progress  w3-agile">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                                                  </div>
+                                              </div>
+                                              <h6>Photoshop <span> 75% </span></h6>
+                                              <div class="progress  w3-agile">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 75%">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="col-md-6 bar-grids  w3-agile">
+                                              <h4><span><i class="fa fa-briefcase" aria-hidden="true" style="color: #129CF3"></i></span> Professional Skills </h4>
+                                              <h6>Communication<span> 85% </span></h6>
+                                              <div class="progress">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 85%">
+                                                  </div>
+                                              </div>
+                                              <h6>Social media marketing<span> 95% </span></h6>
+                                              <div class="progress">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 95%">
+                                                  </div>
+                                              </div>
+                                              <h6>Leadership<span>90% </span></h6>
+                                              <div class="progress">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 90%">
+                                                  </div>
+                                              </div>
+                                              <h6>Confidence<span>86% </span></h6>
+                                              <div class="progress prgs-w3agile-last">
+                                                  <div class="progress-bar progress-bar-striped active" style="width: 86%">
+                                                  </div>
+                                              </div>
+                                          </div>
+                                          <div class="clearfix"> </div>
+                                      </div>
+                                  </div>
+                          </section>
+
+
+
+                  </div>
+
+              </div>
+          </div>
+      </div>
+      </div>
+    </section>
+    <div class="clearfix"> </div>
+
+
+
+
+    <section class="testimonial" id="TESTIMONIAL">
+
+        <div class="testimonial-overlay">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="col-md-12 wow bounceInDown">
+
+
+                        <div id="carousel-testimonial" class="carousel slide" data-ride="carousel">
+
+
+                            <!-- indicators  like these hole circles  -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-testimonial" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-testimonial" data-slide-to="1"></li>
+                                <li data-target="#carousel-testimonial" data-slide-to="2"></li>
+                            </ol>
+
+
+                            <!-- wrapper for slides -->
+                            <div class="carousel-inner">
+
+
+                                <!-- item 01 -->
+                                <div class="item active text-center">
+
+
+                                    <img src="images/lok.jpg" alt="testimonial" class="center-block" style="width: 128px">
+
+                                    <div class="testimonial-caption">
+
+                                        <h2>Lok Bahadur Gubhaju</h2>
+                                        <h4><span> MSC(IE) student, </span> FH Kiel</h4>
+                                        <p>"Mr Sandeep Ghimire is my Team partner in Our project on Advanced Programming module
+                                            in MSC . We did Make Releif Distribution Management System . He is a Team Player."</p>
+
+                                    </div>
+
+
+                                </div>
+
+                                <!-- item 02 -->
+                                <div class="item text-center">
+
+
+                                    <img src="images/suraj.jpg"  alt="testimonial" class="center-block" style="width: 128px">
+
+                                    <div class="testimonial-caption">
+
+                                        <h2>Suraj Shrestha</h2>
+                                        <h4><span> MSC(IE) student And web Developer, </span>FH Kiel</h4>
+                                        <p>"Mr Sandeep Ghimire is a very dedicated guy. He is hardworking and very good."</p>
+
+                                    </div>
+
+
+                                </div>
+
+
+                                <!-- item 03 -->
+                                <div class="item text-center">
+
+
+                                    <img src="" alt="testimonial" class="center-block" style="width: 128px">
+
+                                    <div class="testimonial-caption">
+
+                                        <h2>Sabin bajracharya </h2>
+                                        <h4><span> Professor, </span></h4>
+                                        <p>“Mr Sandeep Ghimire is my student. He is dedicated and hardworking guy
+                                            . He takes his project work seriously. I taught him web technolgy module in bachelors .
+                                            He is a Team Player.”</p>
+
+                                    </div>
+
+
+                                </div>
+
+
+
+
+                            </div>
+
+
+                        </div>
+
+
+
+                    </div>
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+
+
+    </section>
+    <!-- Screens -->
+    <section class="screens" id="SCREENS">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+
+                        <h2> My Projects  </h2>
+                        <h3 style="text-align: center"> Relief Distribution Management System </h3>
+                        <p>Relief Distribution Management System is a platform for helping the people
+                            of a affected area in a effective and systematic manner . Its a web based platorm
+                            for collecting the funds , distributing the things and many more. This project is ongoing
+                            And is a dream project of we RDBMS team of 3 Msc students.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="bxslider">
+
+                        <div class="item">
+                            <img src="images/img1.jpg" alt="screen">
+
+                        </div>
+
+                        <div class="item">
+                            <img src="images/img2.jpg" alt="screen">
+
+                        </div>
+
+                        <div class="item">
+                            <img src="images/img3.jpg"  alt="screen">
+
+                        </div>
+
+                        <div class="item">
+                            <img src="images/img4.jpg" alt="screen">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+
+    <section class="screens2" id="SCREEN">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+
+
+                        <h3 style="text-align: center"> Arcade classic on canvas Game  </h3>
+                        <p>Just for fun . For timepass. A classic game designed using HTML 5 Canvas graphics on a web page.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <div class="screen-slider wow bounceInRight" data-wow-duration="1s">
+
+            <div class="container">
+
+                <div class="row">
+
+                    <div class="bxslider">
+
+
+
+                        <div class="item">
+                            <img src="images/img6.jpg" alt="screen">
+
+                        </div>
+
+                        <div class="item">
+                            <img src="images/img7.jpg"  alt="screen">
+
+                        </div>
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+
+
+
+    </section>
+
+    <!-- contact us form -->
+    <section class="contact-us" id="CONTACT">
+
+        <div class="container wow bounceIn">
+
+            <div class="row">
+
+                <div class="col-md-10 col-md-offset-1">
+
+                    <div class="section-title">
+
+                        <h2>Contact Me</h2>
+
+
+                        <p style="text-decoration-style: dotted">To get in Touch you can message me here .</p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="contact-us-form wow bounceIn">
+
+
+            <div class="container">
+
+                <form role="form">
+
+                    <div class="row">
+
+                        <div class="col-md-4">
+
+                            <input type="text" class="form-control" id="name" placeholder="Name">
+                            <input type="email" class="form-control" id="email" placeholder="Email">
+                            <input type="text" class="form-control" id="subject" placeholder="Subject">
+
+                        </div>
+
+                        <div class="col-md-8">
+
+                            <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Message Text...."></textarea>
+
+                            <button type="button" class="btn btn-default submit-btn form_submit">SEND</button>
+
+                        </div>
+
+
+
+
+
+
+                    </div>
+
+
+                </form>
+
+
+            </div>
+
+
+        </div>
+
+     </section>
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+
+                    <div id="copyright">
+                        <p>Copyright &copy; 2017  <a href="#"> - Sandeep</a></p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+
+                    <div class="scroll-top">
+                        <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+
+    </footer>
+
+
+  </body>
+  </html>

@@ -1,0 +1,15 @@
+
+
+<%= form_for @changeset, login_path(@conn, :create), fn f -> %>
+  <div class="form-group">
+    <%= text_input f, :name, placeholder: "name", class: "form-control" %>
+    <%= error_tag f, :name %>
+    <%= text_input f, :age, placeholder: "age", class: "form-control" %>
+    <%= error_tag f, :age %>
+    <%= text_input f, :sex, placeholder: "sex", class: "form-control" %>
+    <%= error_tag f, :sex %>
+  </div>
+
+
+  <%= submit "Save ", class: "btn btn-primary" %>
+<% end %>

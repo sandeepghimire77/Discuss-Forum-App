@@ -1,0 +1,10 @@
+<h2> Logins </h2>
+<ul class="collection">
+  <%= for log <- @login do %>
+  <li class="collection-item">
+    <%= log.name %>
+    <%= log.age %>
+    <%= log.sex %>
+  </li>
+  <% end %>
+</ul>

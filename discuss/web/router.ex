@@ -22,12 +22,17 @@ defmodule Discuss.Router do
 
 
     post "/topics", TopicController, :create
+    get "/topics/:id/edit", TopicController, :edit
+    put "topics/:id", TopicController, :update
+
     #my data
     get "/extra/news", ExtraController, :news
     get "/login/new", LoginController, :new
     post "/login", LoginController, :create
 
-    get "/login/index", LoginController, :index
+    get "/login/show", LoginController, :indexes
+
+
 
 
 

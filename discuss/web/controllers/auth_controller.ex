@@ -15,6 +15,8 @@ defmodule Discuss.AuthController do
     conn
     |> configure_session(drop: true)
     |> redirect(to: topic_path(conn, :index))
+
+
   end
 
   defp signin(conn, changeset) do

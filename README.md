@@ -8,6 +8,6 @@ some interface to post comments to discuss on that topic.
 
 Email and password based autentication are now-a-days gone. Since, nobody wants to remember 50 to 100 passwords now a days :)
 
-# Developed by: Sandeep Ghimire MSC(IE)
+Sandeep Ghimire
 Fh kiel, Germany .
 Full stack Developer.
